@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyBot AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>StudyBot AI</h1>
+            <p>Your personal study assistant</p>
+        </header>
+
+        <main id="chat-box">
+            <div class="message bot">
+                Hello! I'm StudyBot. What would you like to learn today?
+            </div>
+        </main>
+
+        <form id="chat-form">
+            <input
+                type="text"
+                id="question"
+                placeholder="Ask me anything..."
+                autocomplete="off"
+                required
+            >
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
